@@ -1,0 +1,18 @@
+<p>parent works!</p>
+<input type="text" name="name" id="name" [(ngModel)]="name">
+<!--引入子组件-->
+<app-child [name]="name">
+  <app-child-content></app-child-content>
+</app-child>
+
+<ng-container #container [ngTemplateOutlet]="isContainerInit()?templateA:templateB"></ng-container>
+
+<ng-template #templateA>
+  <p>templateA works!</p>
+</ng-template>
+
+<ng-template #templateB>
+  <p>templateB works!</p>
+</ng-template>
+
+
