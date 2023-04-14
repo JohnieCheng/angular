@@ -18,11 +18,17 @@ import {
 } from './(B).view-encapsulation/3.shadow-dom-encapsulation/shadow-dom-encapsulation.component';
 import {InteractionParentComponent} from "./(C).component-interaction/interaction-parent.component";
 import {InteractionChildComponent} from "./(C).component-interaction/interaction-child/interaction-child.component";
-import { NameChildComponent } from './(C).component-interaction/name-child/name-child.component';
-import { VersionChildComponent } from './(C).component-interaction/version-child/version-child.component';
-import { VoterChildComponent } from './(C).component-interaction/voter-child/voter-child.component';
-import { CountdownTimerComponent } from './(C).component-interaction/countdown-timer/countdown-timer.component';
-import { AstronautComponent } from './(C).component-interaction/astronaut/astronaut.component';
+import {NameChildComponent} from './(C).component-interaction/name-child/name-child.component';
+import {VersionChildComponent} from './(C).component-interaction/version-child/version-child.component';
+import {VoterChildComponent} from './(C).component-interaction/voter-child/voter-child.component';
+import {CountdownTimerComponent} from './(C).component-interaction/countdown-timer/countdown-timer.component';
+import {AstronautComponent} from './(C).component-interaction/astronaut/astronaut.component';
+import {HeroMainComponent} from './(D).component-styles/hero-main/hero-main.component';
+import { HeroAppComponent } from './(D).component-styles/hero-app/hero-app.component';
+import { HeroDetailComponent } from './(D).component-styles/hero-detail/hero-detail.component';
+import { HeroControlsComponent } from './(D).component-styles/hero-controls/hero-controls.component';
+import { HeroTeamComponent } from './(D).component-styles/hero-team/hero-team.component';
+import { QuestSummaryComponent } from './(D).component-styles/quest-summary/quest-summary.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +46,13 @@ import { AstronautComponent } from './(C).component-interaction/astronaut/astron
     VersionChildComponent,
     VoterChildComponent,
     CountdownTimerComponent,
-    AstronautComponent
+    AstronautComponent,
+    HeroMainComponent,
+    HeroAppComponent,
+    HeroDetailComponent,
+    HeroControlsComponent,
+    HeroTeamComponent,
+    QuestSummaryComponent
   ],
   imports: [
     BrowserModule,
