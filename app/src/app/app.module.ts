@@ -29,6 +29,8 @@ import { HeroDetailComponent } from './(D).component-styles/hero-detail/hero-det
 import { HeroControlsComponent } from './(D).component-styles/hero-controls/hero-controls.component';
 import { HeroTeamComponent } from './(D).component-styles/hero-team/hero-team.component';
 import { QuestSummaryComponent } from './(D).component-styles/quest-summary/quest-summary.component';
+import { ShardingDataParentComponent } from './(E).sharing-data-between-child-and-parent/sharding-data-parent/sharding-data-parent.component';
+import { ShardingDataChildComponent } from './(E).sharing-data-between-child-and-parent/sharding-data-child/sharding-data-child.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +54,9 @@ import { QuestSummaryComponent } from './(D).component-styles/quest-summary/ques
     HeroDetailComponent,
     HeroControlsComponent,
     HeroTeamComponent,
-    QuestSummaryComponent
+    QuestSummaryComponent,
+    ShardingDataParentComponent,
+    ShardingDataChildComponent
   ],
   imports: [
     BrowserModule,
