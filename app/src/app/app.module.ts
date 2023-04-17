@@ -42,6 +42,11 @@ import {ExampleZippyComponent} from './(F).content-projection/example-zippy/exam
 import {ZippyToggleDirective} from './(F).content-projection/example-zippy/zippy-toggle.directive';
 import {ZippyContentDirective} from './(F).content-projection/example-zippy/zippy-content.directive';
 import { ZippyNgprojectasComponent } from './(F).content-projection/zippy-ngprojectas/zippy-ngprojectas.component';
+import { AdBannerComponent } from './(G).dynamic-component-loader/ad-banner/ad-banner.component';
+import { AdDirective } from './(G).dynamic-component-loader/ad.directive';
+import { HeroProfileComponent } from './(G).dynamic-component-loader/hero-profile/hero-profile.component';
+import { HeroJobAdComponent } from './(G).dynamic-component-loader/hero-job-ad/hero-job-ad.component';
+import { AdComponent } from './(G).dynamic-component-loader/ad/ad.component';
 
 @NgModule({
   declarations: [
@@ -74,7 +79,12 @@ import { ZippyNgprojectasComponent } from './(F).content-projection/zippy-ngproj
     ExampleZippyComponent,
     ZippyToggleDirective,
     ZippyContentDirective,
-    ZippyNgprojectasComponent
+    ZippyNgprojectasComponent,
+    AdBannerComponent,
+    AdDirective,
+    HeroProfileComponent,
+    HeroJobAdComponent,
+    AdComponent
   ],
   imports: [
     BrowserModule,
