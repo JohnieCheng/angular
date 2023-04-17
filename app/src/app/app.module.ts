@@ -24,13 +24,24 @@ import {VoterChildComponent} from './(C).component-interaction/voter-child/voter
 import {CountdownTimerComponent} from './(C).component-interaction/countdown-timer/countdown-timer.component';
 import {AstronautComponent} from './(C).component-interaction/astronaut/astronaut.component';
 import {HeroMainComponent} from './(D).component-styles/hero-main/hero-main.component';
-import { HeroAppComponent } from './(D).component-styles/hero-app/hero-app.component';
-import { HeroDetailComponent } from './(D).component-styles/hero-detail/hero-detail.component';
-import { HeroControlsComponent } from './(D).component-styles/hero-controls/hero-controls.component';
-import { HeroTeamComponent } from './(D).component-styles/hero-team/hero-team.component';
-import { QuestSummaryComponent } from './(D).component-styles/quest-summary/quest-summary.component';
-import { ShardingDataParentComponent } from './(E).sharing-data-between-child-and-parent/sharding-data-parent/sharding-data-parent.component';
-import { ShardingDataChildComponent } from './(E).sharing-data-between-child-and-parent/sharding-data-child/sharding-data-child.component';
+import {HeroAppComponent} from './(D).component-styles/hero-app/hero-app.component';
+import {HeroDetailComponent} from './(D).component-styles/hero-detail/hero-detail.component';
+import {HeroControlsComponent} from './(D).component-styles/hero-controls/hero-controls.component';
+import {HeroTeamComponent} from './(D).component-styles/hero-team/hero-team.component';
+import {QuestSummaryComponent} from './(D).component-styles/quest-summary/quest-summary.component';
+import {
+  ShardingDataParentComponent
+} from './(E).sharing-data-between-child-and-parent/sharding-data-parent/sharding-data-parent.component';
+import {
+  ShardingDataChildComponent
+} from './(E).sharing-data-between-child-and-parent/sharding-data-child/sharding-data-child.component';
+import {ZippyBasicComponent} from './(F).content-projection/zippy-basic/zippy-basic.component';
+import {ZippyParentComponent} from './(F).content-projection/zippy-parent/zippy-parent.component';
+import {ZippyMultislotComponent} from './(F).content-projection/zippy-multislot/zippy-multislot.component';
+import {ExampleZippyComponent} from './(F).content-projection/example-zippy/example-zippy.component';
+import {ZippyToggleDirective} from './(F).content-projection/example-zippy/zippy-toggle.directive';
+import {ZippyContentDirective} from './(F).content-projection/example-zippy/zippy-content.directive';
+import { ZippyNgprojectasComponent } from './(F).content-projection/zippy-ngprojectas/zippy-ngprojectas.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +67,14 @@ import { ShardingDataChildComponent } from './(E).sharing-data-between-child-and
     HeroTeamComponent,
     QuestSummaryComponent,
     ShardingDataParentComponent,
-    ShardingDataChildComponent
+    ShardingDataChildComponent,
+    ZippyBasicComponent,
+    ZippyParentComponent,
+    ZippyMultislotComponent,
+    ExampleZippyComponent,
+    ZippyToggleDirective,
+    ZippyContentDirective,
+    ZippyNgprojectasComponent
   ],
   imports: [
     BrowserModule,
